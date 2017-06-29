@@ -179,7 +179,10 @@ onSizeChanged如下：
   PS：关于onLayout这个函数在讲解自定义ViewGroup的时候会详细讲解。
 
 
-========
+========   add by Twan
+一张图看懂坐标系:
+
+https://github.com/twangithub/AndroidNote/blob/master/CustomView/Advance/Res/%E8%A7%86%E5%9B%BE%E5%9D%90%E6%A0%87%E7%B3%BB.png
 
 ### 5.绘制内容(onDraw)
 
