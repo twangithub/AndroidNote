@@ -162,7 +162,7 @@ Matrix 是一个矩阵，最根本的作用就是坐标转换，下面我们就�
 
 前乘相当于矩阵的右乘：
 
-![](http://latex.codecogs.com/png.latex?$$ M' =  M \\cdot S $$)
+![](http://latex.codecogs.com/png.latex?$$M'=M\\cdotS$$)
 
 > 这表示一个矩阵与一个特殊矩阵前乘后构造出结果矩阵。
 
