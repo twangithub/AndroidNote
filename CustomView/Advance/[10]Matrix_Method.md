@@ -40,15 +40,7 @@ Matrix matrix = new Matrix();
 
 通过这种方式创建出来的并不是一个数值全部为空的矩阵，而是一个单位矩阵,如下:
 
-![](http://latex.codecogs.com/png.latex?$$
-\\left [ 
-\\begin{matrix} 
-1 & 0 & 0 \\\\
-0 & 1 & 0 \\\\
-0 & 0 & 1 
-\\end{1} 
-\\right ]
-$$)
+![](http://latex.codecogs.com/png.latex?$$\\left[\\begin{matrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{1}\\right]$$)
 
 
 #### 有参构造
