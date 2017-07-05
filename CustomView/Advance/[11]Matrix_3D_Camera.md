@@ -319,18 +319,7 @@ public class Rotate3dAnimation extends Animation {
 
 想要解决其实也不难，只要修改两个数值就可以了，这两个数值就是在Matrix中一直被众多开发者忽略的 `MPERSP_0` 和 `MPERSP_1`
 
-![](http://latex.codecogs.com/png.latex?
-$$
-\\left [ 
-\\begin{matrix} 
-MSCALE\\_X & MSKEW\\_X & MTRANS\\_X \\\\
-\\\\
-MSKEW\\_Y & MSCALE\\_Y & MTRANS\\_Y \\\\
-\\\\
-MPERSP\\_0 & MPERSP\\_1 & MPERSP\\_2 
-\\end{1} 
-\\right ] 
-$$)
+![](http://latex.codecogs.com/png.latex?$$\\left[\\begin{matrix}MSCALE\\_X&MSKEW\\_X&MTRANS\\_X\\\\\\\\MSKEW\\_Y&MSCALE\\_Y&MTRANS\\_Y\\\\\\\\MPERSP\\_0&MPERSP\\_1 &MPERSP\\_2\\end{1}\\right]$$)
 
 下面是修改后的代码(重点部分都已经标注出来了):
 
